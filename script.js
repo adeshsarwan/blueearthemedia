@@ -1,0 +1,1 @@
+const reveal=()=>document.querySelectorAll('.section,.publishing-callout,.contact').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight*.88)el.classList.add('seen')});addEventListener('scroll',reveal,{passive:true});reveal();
