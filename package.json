@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build:main": "rm -rf dist && mkdir -p dist && cp index.html styles.css script.js dist/",
+    "build:main": "rm -rf dist && mkdir -p dist && cp index.html about.html contact.html styles.css script.js dist/",
     "build:publishing": "rm -rf dist && mkdir -p dist && cp publishing/index.html publishing/styles.css dist/",
     "deploy": "wrangler deploy",
     "deploy:publishing": "wrangler deploy --config wrangler.publishing.jsonc",
