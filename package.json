@@ -1,7 +1,7 @@
 {
   "name": "blueearthemedia",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "scripts": {
     "build:main": "rm -rf dist && mkdir -p dist && cp index.html services.html about.html contact.html privacy.html terms.html 404.html styles.css script.js favicon.svg robots.txt sitemap.xml dist/",
     "build:publishing": "rm -rf dist && mkdir -p dist && cp publishing/index.html publishing/about.html publishing/contact.html publishing/styles.css dist/",
